@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <form action=""method="post">
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first_name" id="first-name" Placeholder="Jhon" required><br>
+
+        <label for="last-name">Last Name:</label> 
+        <input type="text" name="last_name" id="last-name" required><br> 
+
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username"><br>
+        
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        
+        <br>
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age"> <br>
+       
+        <label for="birthday">Birthdate:</label>
+        <input type="date" name="birthday" id="birthday"><br>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email"><br>
+    
+        <label for="comments">Comment</label>
+        <textarea name="comments" id="comments" cols="60" rows="10"></textarea>
+    
+    <br>
+    <!-- Radio Button -->
+    <p>Gender</p>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male" value="male">
+    
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="female">
+ 
+    <!-- Checkbox -->
+
+    <p>Please select your favorite food</p>
+    <input type="checkbox" name="food" id="ramen">
+    <label for="ramen">Ramen</label>
+
+    <input type="checkbox" name="food" id="sushi">
+    <label for="sushi">Sushi</label>
+
+    <input type="checkbox" name="food" id="curry">
+    <label for="curry">Curry</label>
+
+    <br>
+
+    <!-- Dropdown List -->
+     <label for="device">What is your device?</label>
+     <select name="device id="device">
+        <option value="macbook">Macbook</option>
+        <option value="ipad">iPad</option>
+        <option value="iphone">iPhone</option>
+     </select>
+     <br>
+
+     <!-- Multiple Select -->
+<select name="car" id="car"multiple>
+        <option value="">Select a car</option> 
+        <option value="toyota">Toyota</option> 
+        <option value="nissan">Nissan</option> 
+        <option value="honda">Honda</option> 
+
+    </select> 
+
+    <br>
+    <!-- File Input Box -->
+     <input type="file" name="photo" id="">
+
+
+     <br>
+
+     <input type="submit" name="btn_send" value="Send">
+
+     <button type="submit" name="btn_submit">Submit</button>
+
+    
+
+
+</form>
+ 
+<!-- 
+Validations:
+      1.required 
+      2.min
+        a.string/letters/characters
+        b.numeric
+
+
+
+-->
+</body>
+</html>
